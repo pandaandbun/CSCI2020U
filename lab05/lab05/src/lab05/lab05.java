@@ -113,16 +113,9 @@ public class lab05 extends Application {
 	@Override
 	public void start(Stage stage) {
 		Scene scene = new Scene(new Group());
-		stage.setTitle("lab08");
+		stage.setTitle("lab05");
 
 		HBox hb = new HBox();
-
-		// file menu
-		MenuBar menuBar = new MenuBar();
-		Menu menuFile = new Menu("File");
-		MenuItem New = new MenuItem("New");
-		
-		menuBar.getMenus().addAll(menuFile);
 
 		// Table
 		TableColumn sidCol = new TableColumn("SID");
@@ -188,7 +181,7 @@ public class lab05 extends Application {
 		final VBox vbox = new VBox();
 		vbox.setSpacing(5);
 		vbox.setPadding(new Insets(10, 0, 0, 10));
-		vbox.getChildren().addAll(menuBar, table, hb);
+		vbox.getChildren().addAll(table, hb);
 
 		((Group) scene.getRoot()).getChildren().addAll(vbox);
 

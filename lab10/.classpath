@@ -2,6 +2,5 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Google Drive/Life/1. School/1. Winter 2019/Software Systems Dev. &amp; Integ/Lab/CSCI2020U/lab09/java-json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
